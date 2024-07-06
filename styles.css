@@ -89,16 +89,22 @@ section:nth-of-type(odd) {
     background-color: #555 !important;
 }
 
-/* Services list */
-.services ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+/* Services */
+.service-item {
+    margin-bottom: 40px;
 }
 
-.services li {
-    margin: 10px 0;
+.service-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 1em;
+    color: #555;
     text-align: left;
+    margin: 0 auto;
+    max-width: 800px;
 }
 
 /* Responsive styles */
@@ -128,5 +134,9 @@ section:nth-of-type(odd) {
 
     .hamburger {
         display: flex;
+    }
+
+    .service-item p {
+        text-align: center;
     }
 }
